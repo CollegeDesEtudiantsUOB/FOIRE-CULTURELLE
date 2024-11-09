@@ -1,31 +1,634 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre Titre Ici</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>College Des Etudiants UOB</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="uob1.jpeg" rel="icon">
+  <link href="uob1.jpeg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+  <link href="glightbox.min.css" rel="stylesheet">
+  <link href="swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Restaurantly
+  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-    <header>
-        <h1>Université Officielle de Bukavu / Collège des étudiants /...</h1>
-    </header>
-  <h2>Bienvenue à l'Université Officielle de Bukavu !</h2>
 
-<b>Chers nouveaux étudiants,</br>
+<body class="index-page">
 
-Le Collège des Étudiants de l'Université Officielle de Bukavu vous souhaite la bienvenue la plus chaleureuse parmi nous !  </br>
+  <header id="header" class="header fixed-top">
 
-Nous sommes ravis de vous accueillir dans notre grande famille universitaire et nous vous encourageons à vous engager pleinement dans votre parcours académique. Vous êtes désormais membres d'une institution prestigieuse qui a forgé des générations de professionnels accomplis. 
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="Collegeetudiantsuob@gmail.com">Collegeetudiantsuob@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+243971307573</span></i>
+        </div>
+        <div class="languages d-none d-md-flex align-items-center">
+          <ul>
+            <li>En</li>
+            <li><a href="#">Fr</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
 
-Votre succès est notre réussite ! Travaillez dur, explorez vos passions, et contribuez à l'excellence de notre université. </br></br>
+    <div class="branding d-flex align-items-cente">
 
-Pour vous aider à vous intégrer et à découvrir la richesse de notre communauté étudiante, nous organiserons une grande Foire Culturelle en 2025. Cet événement sera une occasion unique de célébrer notre diversité culturelle et de partager des moments inoubliables.
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Foire Culturelle</h1>
+        </a>
 
-N'hésitez pas à contacter le Collège des Étudiants si vous avez besoin d'aide ou d'informations supplémentaires. Nous sommes là pour vous accompagner tout au long de votre parcours à l'UOB.</br></br>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Accueil<br></a></li>
+            <li><a href="#about">A-propos</a></li>
+            <li><a href="#menu">Activités</a></li>
+            <li><a href="#specials">Prix</a></li>
+            <li><a href="#events">Horaire</a></li>
+            <li><a href="#chefs">Ministere</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li class="dropdown"><a href="#"><span>Ministeres</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Gouvernement</a></li>
+                <li class="dropdown"><a href="#"><span>Affaires Académiques</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Domaine de la santé</a></li>
+                    <li><a href="#">Domaine des sciences juridiques</a></li>
+                    <li><a href="#">Domaine de l'homme et société</a></li>
+                    <li><a href="#">Ecole de Criminologie</a></li>
+                    <li><a href="#">Ecole de Mines</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Ministere de la santé</a></li>
+                <li><a href="#">Ministere de la Defense</a></li>
+                <li><a href="#">Ministere de Finance</a></li>
+                <li><a href="#">Ministere de l'Environnement</a></li>
+                <li><a href="#">Ministere de Communication</a></li>
+                <li><a href="#">Ministere de Cultures et Arts</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-Bienvenue et bon courage ! 
+        <a class="btn-book-a-table d-none d-xl-block" href="#book-a-table">Passer votre commende</a>
 
-Le Collège des Étudiants de l'Université Officielle de Bukavu
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="etudiant1.jpeg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
+            <h2 data-aos="fade-up" data-aos-delay="100">Bienvenus à l'<span>UOB</span></h2>
+            <p data-aos="fade-up" data-aos-delay="200">La Noble Source</p>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="#menu" class="cta-btn">le Menu</a>
+              <a href="#book-a-table" class="cta-btn">commander</a>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
+            <a href="#about" class="glightbox pulsating-play-btn"></a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="uob3.jpeg" class="img-fluid about-img" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 content">
+            <h3>Foire culturelle UOB 2024</h3>
+            <p class="fst-italic">
+              La foire culturelle 1ere édition de l'UOB est une opportunité unique de célébrer la diversité artistique et culturelle des étudiants, de promouvoir la créativité et de renforcer le sentiment d'appartenance à la communauté universitaire. <BR/> 
+              OBJECTIFS & MISSIONS
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Célébrer la diversité culturelle et artistique des étudiants.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Promouvoir l'expression créative et le talent artistique</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Créer un espace d'échange et de collaboration interculturelle.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Encourager la participation active des étudiants dans les processus d’une paix durable et la cohésion sociale.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Reconnaître et récompenser l'excellence dans diverses disciplines artistiques.</span></li>
+            </ul>
+            <h1>Vision</h1>
+            <p>              
+Cette foire culturelle aspire à devenir un événement phare pour les étudiants de l'Université Officielle de Bukavu et  un rendez-vous incontournable pour tous les passionnés d'art et de culture. Elle vise à : </br>
+<ul>
+  <li><i class="bi bi-check2-all"></i> <span>Révéler des talents cachés car « Un talent caché et un talent gâché » dit-on.</span></li>
+  <li><i class="bi bi-check2-all"></i> <span>Créer des opportunités de réseautage et de collaboration.</span></li>
+  <li><i class="bi bi-check2-all"></i> <span>Enrichir l'expérience universitaire.</span></li>
+  <li><i class="bi bi-check2-all"></i> <span>Promouvoir la créativité et l'innovation.</span></li>
+  <li><i class="bi bi-check2-all"></i> <span>Créer un sentiment d'appartenance et de fierté.</span></li>
+</ul>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Cibles</h2>
+        <p>Cibles et Public</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <span>01</span>
+              <h4><a href="" class="stretched-link">Etudiants de l'UOB</a></h4>
+              <p>Étudiants régulièrement inscrits à l’Université Officielle de Bukavu, de toutes les promotions et de tous les filières.</p>
+            </div>
+          </div><!-- Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link">Etudiants de Bukavu</a></h4>
+              <p>Etudiants régulièrement inscrits à l’une des Université de la ville de Bukavu.</p>
+            </div>
+          </div><!-- Card Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Activités</h2>
+        <p>Disciplines et Activités</p>
+      </div><!-- End Section Title -->
+
+      <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul class="menu-filters isotope-filters">
+              <li data-filter="*" class="filter-active">Voir tout</li>
+              <li data-filter=".filter-starters">Arts visuels</li>
+              <li data-filter=".filter-salads">Arts de la scène</li>
+              <li data-filter=".filter-specialty">Écriture et littérature</li>
+              <li data-filter=".filter-num">Arts numériques</li>
+              <li data-filter=".filter-design">Artisanat et design</li>
+              <li data-filter=".filter-cul">Culinaire</li>
+              <li data-filter=".filter-jeux">Jeux et activités interactives</li>
+              <li data-filter=".filter-atelier">Conférences et ateliers</li>
+            </ul>
+          </div>
+        </div><!-- Menu Filters -->
+
+        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="peinture.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Peinture</a><span>UOB </span>
+            </div>
+            <div class="menu-ingredients">
+              Un prix pour le meilleur.
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="photog.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Photographie</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Un prix pour le meilleur.
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="sculpture.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sculpture</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Un prix pour le meilleur.
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="theatre.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Théâtre</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="danse.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Danse</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="musique.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Musique</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="chant.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chant</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="perfo.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Performance</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="poesie.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Poésie</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="slam.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Slam</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="crea.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Ecriture créative</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-num">
+            <img src="film.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Film</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-num">
+            <img src="design.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Design graphique</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-num">
+            <img src="anim.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Animation</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-num">
+            <img src="prog.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Programmation</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-design">
+            <img src="ceramique.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Céramique</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-design">
+            <img src="bij.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Bijouterie</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-design">
+            <img src="cou.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Couture</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-design">
+            <img src="text.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Design textile</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-cul">
+            <img src="cui.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cuisine traditionnelle</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-cul">
+            <img src="cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pâtisserie</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+          
+          <div class="col-lg-6 menu-item isotope-item filter-cul">
+            <img src="cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Dégustation</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-jeux">
+            <img src="jeux.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Jeux de société</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-jeux">
+            <img src="jeux.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Jeux Scientifique</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-atelier">
+            <img src="conf.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sur des thèmes artistiques</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-atelier">
+            <img src="conf.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Culturels</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+          <div class="col-lg-6 menu-item isotope-item filter-atelier">
+            <img src="conf.jpeg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">liés à l'entrepreneuriat Culturels</a><span>UOB</span>
+            </div>
+            <div class="menu-ingredients">
+              Intepretation tradi-moderne
+            </div>
+          </div><!-- Menu Item -->
+
+        </div><!-- Menu Container -->
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+    <!-- Specials Section -->
+    <section id="specials" class="specials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Prix</h2>
+        <p>Prix et Bourses</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">Prix du public : décerné par le vote des participants.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Prix du jury: décerné par un jury d'experts.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Bourses d'encouragement: pour soutenir des projets artistiques et culturels.</a>
+              </li>
+          
+            </ul>
+          </div>
+          
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Foire-Culturelle</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Université Officielle de Bukavu</p>
+            <p>College des étudiants</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+243971307573</span></p>
+            <p><strong>Email:</strong> <span>collegeetudiantsuob@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Liens importants</h4>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">A-propos</a></li>
+            <li><a href="#">Ministeres</a></li>
+            <li><a href="#">Projets</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Participation</h4>
+          <ul>
+            <li><a href="#">Partenariat</a></li>
+            <li><a href="#">Candidature</a></li>
+            <li><a href="#">Soutiens</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Recommandations</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Notre Newsletter</h4>
+          <p>Abonnez-vous à notre Newsletter pour rester informé de nos nouvelles</p>
+          <form action="newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">College Des Etudiants</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="">Daniel KAKUSU</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="validate.js"></script>
+  <script src="aos.js"></script>
+  <script src="glightbox.min.js"></script>
+  <script src="imagesloaded.pkgd.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  <script src="swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="main.js"></script>
+
 </body>
+
 </html>
